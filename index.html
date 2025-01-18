@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+           
+
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    *{font-family: "Manrope", serif;}
+  </style>
+</head>
+<body>
+ <header>
+    <div class="flex justify-around mt-10 ">
+    <div class="flex gap-2 items-center">
+        <!-- start -->
+        <div class="bg-green-500 w-4 h-4 rounded-2xl p-1"><img class="" src="./icons8-arrow-50.png" alt=""></div>
+    <h1 class="texl-5xl font-bold">Rinterio</h1>
+    </div>
+<!-- middle -->
+<div class="hidden lg:block">
+    <ul class="list-none m-4 flex  gap-4 "> 
+     <li class="font-bold">Home</li>
+     <li>Services </li>
+     <li>Portfolio</li>
+     <li>Blogs</li>
+     <li>Contact Us</li>
+ </ul>
+  </div>
+ <!-- end -->
+  <div class="hidden lg:block">
+    <div class="flex gap-4  items-center">
+        <div class="shadow-lg rounded-full p-2 "><img src="./assets/icons8-search-30.png" alt=""></div>
+        <div class="shadow-lg  rounded-full p-2"><img src="./icons8-cart-32.png" alt=""></div>
+        <div class="bg-green-400 rounded-full p-4">
+            <h1 class="flex gap-1">Book Consult <span>  <img class="-rotate-45" src="./assets/icons8-arrow-30.png" alt=""></span></h1>
+          
+        </div>
+      </div>
+  </div>
+  <!-- 3 line -->
+   <div class="lg:hidden block">
+   
+    <img class=" shadow-lg rounded-full p-4" src="./assets/icons8-line-width-30 (1).png" alt="">
+</div>
+    </div>
+ </header>
+ <!-- banner -->
+ <div class="banner max-w-5xl bg-slate-200 py-2 mt-8 mx-auto text-center">
+<div class="flex justify-center items-center"><img src="./assets/banner.png" alt=""></div>
+<div class="text-center max-w-xl mx-auto">
+    <h1 class="text-3xl font-bold m-8 ">A barn house of this design has a striking appearance</h1>
+   
+</div>
+<div class="max-w-4xl mx-auto"> <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p></div>
+<div class=" bg-lime-300 items-center p-2 m-8 border-2 border-lime-600 w-48 mx-auto flex justify-center gap-4 rounded-full font-bold">View Details
+
+    <div class="bg-green-500 w-8 h-8 mb-2 rounded-2xl p-1"><img class="" src="./icons8-arrow-50.png" alt=""></div>
+</div>
+ </div>
+ <main>
+<!-- about -->
+ <div class="max-w-5xl mx-auto bg-red-200">
+    <div class="m-6"><img src="./assets/Vector.png" alt=""></div>
+    <div class="flex items-center shadow-lg rounded-full py-2 ml-10 bg-white w-36  ">
+        <img class="rotate-45 w-4 ml-2" src="./icons8-arrow-50.png" alt="">
+        <h1 class="px-4 ">About Us</h1>
+    </div>
+    <!-- image -->
+     <div class="max-w-5xl flex flex-col lg:flex-row justify-center">
+        <div class="max-w-3xl  ">
+<h1 class="text-3xl font-bold max-w-sm ml-10 ">We design thoughtful, liveable spaces</h1>
+
+<p class="ml-10">The barn house captivates with its blend of rustic charm and 
+    modern sophistication, featuring weathered wood, sleek metal accents.</p>
+    <div class="flex max-w-lg rounded-md shadow-2xl mt justify-center p-4 m-10 items-center gap-6 bg-white">
+        <div><img src="./assets/commercial.png" alt=""></div>
+        <div>
+            <h1 class="text-xl font-bold">Commercial</h1>
+            <p class="text-sm">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+        </div>
+    </div>
+    <div class="flex max-w-lg rounded-md shadow-2xl mt justify-center p-4 m-10 items-center gap-6 bg-white">
+        <div><img src="./assets/residential.png" alt=""></div>
+        <div>
+            <h1 class="text-xl font-bold">Residential</h1>
+            <p class="text-sm">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+        </div>
+    </div>
+        </div>
+        <div class="max-w-2xl">
+            <img src="./assets/Rectangle.png" alt="">
+        </div>
+     </div>
+ </div>
+
+ </main>
+ <footer></footer>
+
+</body>
+</html>
