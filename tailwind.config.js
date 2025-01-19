@@ -2,9 +2,12 @@
 module.exports = {
     content: ["./src/**/*.{html,js}"],
     theme: {
-      extend: {boxShadow: {
-        '3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
-      }},
+      extend: {
+        
+        colors: {
+          
+        },
+    },
     },
     colors: {
         'custom-green': 'rgba(171, 239, 95, 0.5)',
